@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- edit the title that shows in the browser tab -->
-  <title>Publications - Finn Wimberly</title>
-  <meta name="description" content="Publications by Finn Wimberly" />
+  <title>Work - Finn Wimberly</title>
+  <meta name="description" content="Publications and projects by Finn Wimberly" />
 
   <style>
     /* ===== theme variables — tweak these to restyle the whole site ===== */
@@ -84,6 +84,12 @@
     .pubs .authors, .pubs .venue { color: var(--muted); font-size: 0.95rem; }
     .pubs .venue { font-style: italic; }
 
+    /* ===== projects list ===== */
+    .projects { list-style: none; margin: 0; padding: 0; }
+    .projects li { margin-bottom: 1.25rem; }
+    .projects .title { font-weight: 600; }
+    .projects .desc { color: var(--muted); font-size: 0.95rem; }
+
     footer {
       color: var(--muted);
       font-size: 0.85rem;
@@ -103,7 +109,7 @@
     <!-- ===== NAVIGATION ===== -->
     <nav>
       <a href="index.html">About</a>
-      <a href="publications.html" class="active">Publications</a>
+      <a href="publications.html" class="active">Work</a>
     </nav>
 
     <!-- ===== PUBLICATIONS ===== -->
@@ -119,6 +125,13 @@
         </li> -->
         <li>
           <span class="title">
+            <a href="https://doi.org/10.1038/s41597-026-07437-3">Nineteenth century global wind data from historical New England whaling ship voyages (1820&ndash;1900 CE)</a>
+          </span><br />
+          <span class="authors">C. C. Ummenhofer, N. Sander, F. Wimberly, H. Gordon, T. Giacoppo, B. M&uuml;nch, C. Bice, T. D. Walker</span><br />
+          <span class="venue">Scientific Data</span>, 2026.
+        </li>
+        <li>
+          <span class="title">
             <a href="https://doi.org/10.5194/tc-20-1339-2026">CMIP6 climate model spread outweighs glacier model spread in 21st-century drought buffering projections</a>
           </span><br />
           <span class="authors">L. Ultee, F. Wimberly, S. Coats, J. Mackay, E. Holmgren</span><br />
@@ -130,6 +143,23 @@
           </span><br />
           <span class="authors">F. Wimberly, L. Ultee, L. Schuster, M. Huss, D. R. Rounce, F. Maussion, S. Coats, J. Mackay, E. Holmgren</span><br />
           <span class="venue">The Cryosphere</span>, 19, 1491&ndash;1511, 2025.
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li>
+          <span class="title">
+            <a href="https://ccocean.whoi.edu/">Cape Cod Ocean Watch</a>
+          </span><br />
+          <span class="desc">Led the development of the ccocean dashboard. This project is a collaboration with the Cape Cod 
+            Commercial Fishermen's Alliance (CCCFA), Commercial Fisheries Reasearch Fleet (CFRF), NOAA's 
+            eMOLT program, and WHOI. The dashboard sythesizes oceanographic data from various sources from the Gulf of Maine to the
+            Mid-Atlantic Bight. We aim to help build knowledge for scientists, make observational data more accessible to a wide range 
+            of users, and find connections between changing ocean conditions and fishing success.</span>
         </li>
       </ul>
     </section>
